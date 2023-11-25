@@ -14,8 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls), #admin페이지가 작동하려면 "python manage.py migrate"명령으로 DB를 생성해줘야 한다.
+    path('', include('inflearn_lecture.urls') )
 ]
