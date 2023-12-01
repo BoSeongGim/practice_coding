@@ -3,6 +3,7 @@ package com.example.comin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
+//import kotlinx.android.synthetic.main.activity_main.gridview //The 'kotlin-android-extensions' Gradle plugin is no longer supported. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,6 +12,42 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val img = arrayOf(
+            R.drawable.ai,
+            R.drawable.css,
+            R.drawable.html,
+            R.drawable.id,
+            R.drawable.jpg,
+            R.drawable.js,
+            R.drawable.mp4,
+            R.drawable.pdf,
+            R.drawable.php,
+            R.drawable.png,
+            R.drawable.profile,
+            R.drawable.psd,
+            R.drawable.tiff
+        )
+
+        val text = arrayOf(
+            "ai",
+            "css",
+            "html",
+            "id",
+            "jpg",
+            "js",
+            "mp4",
+            "pdf",
+            "php",
+            "png",
+            "profile",
+            "psd",
+            "tiff"
+        )
+
+        val gridviewAdapter = GridviewAdapter(this, img, text)
+        //gridview.adapter = gridviewAdapter//
+
 
         viewPager = findViewById(R.id.viewpager) as ViewPager
 

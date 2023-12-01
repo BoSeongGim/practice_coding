@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-android")
+    id("kotlin-android-extensions") //The 'kotlin-android-extensions' Gradle plugin is no longer supported. Please use this migration guide (https://goo.gle/kotlin-android-extensions-deprecation) to start working with View Binding (https://developer.android.com/topic/libraries/view-binding) and the 'kotlin-parcelize' plugin.
 }
 
 android {
@@ -33,6 +35,13 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    //https://zenn.dev/kmd_htsh0226/articles/91ef3b833b6c0f
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+
 }
 
 dependencies {
