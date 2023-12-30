@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img5172
+drawable radius
+id endBtn
+id finalDate
+id startBtn
+id textView
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Dday
+style Theme.Dday
+xml backup_rules
+xml data_extraction_rules
