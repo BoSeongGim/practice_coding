@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable bts_1
+drawable bts_2
+drawable bts_3
+drawable bts_4
+drawable bts_5
+drawable bts_6
+drawable bts_7
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btsImage1
+id btsImage2
+id btsImage3
+id btsImage4
+id btsImage5
+id btsImage6
+id btsImage7
+layout activity_bts1
+layout activity_bts2
+layout activity_bts3
+layout activity_bts4
+layout activity_bts5
+layout activity_bts6
+layout activity_bts7
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Bts_lecture
+style Theme.Bts_lecture
+xml backup_rules
+xml data_extraction_rules

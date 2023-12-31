@@ -1,0 +1,10 @@
+#Sat Oct 28 14:54:37 JST 2023
+base.0=/Users/gimboseong/study/andorid(mobile)/app_8_create/section2_bts_app/Bts_lecture/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/gimboseong/study/andorid(mobile)/app_8_create/section2_bts_app/Bts_lecture/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/gimboseong/study/andorid(mobile)/app_8_create/section2_bts_app/Bts_lecture/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=6/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
